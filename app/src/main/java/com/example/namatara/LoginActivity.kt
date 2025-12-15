@@ -31,5 +31,10 @@ class LoginActivity : AppCompatActivity() {
                 Toast.makeText(this, "Username atau password salah", Toast.LENGTH_SHORT).show()
             }
         }
+
+        binding.btnSignup.setOnClickListener {
+            val intent = Intent(this, RegisterActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
