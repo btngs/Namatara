@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Namatara</string>
+    <string name="home_label">Home</string>
+    <string name="profile_label">My Profile</string>
 </resources>
